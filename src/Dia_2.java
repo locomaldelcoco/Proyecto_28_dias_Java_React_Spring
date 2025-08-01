@@ -49,3 +49,4 @@ public class Dia_2 {
         return lado1 + lado2 + lado3;
     }
 }
+
