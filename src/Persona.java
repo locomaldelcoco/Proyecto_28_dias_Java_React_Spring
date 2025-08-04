@@ -24,7 +24,11 @@ public class Persona {
     }
 
     public void setDni(int dni) {
-        this.dni = dni;
+        if (dni > 0 && dni < 99999999){
+            this.dni = dni;
+        }else {
+            System.out.println("Favor de ingresar un DNI correcto");
+        }
     }
 
     public int getEdad() {
@@ -32,7 +36,11 @@ public class Persona {
     }
 
     public void setEdad(int edad) {
-        this.edad = edad;
+        if (edad >= 1 && edad <= 115){
+            this.edad = edad;
+        }else {
+            System.out.println("Favor de ingresar edad correcta");
+        }
     }
 
     public String getNombre() {
@@ -40,6 +48,10 @@ public class Persona {
     }
 
     public void setNombre(String nombre) {
-        this.nombre = nombre;
+        if (!nombre.trim().isEmpty() && nombre.length() <= 15) {
+            this.nombre = nombre;
+        }else {
+            System.out.println("Favor de ingresar nombre correcto");
+        }
     }
 }
