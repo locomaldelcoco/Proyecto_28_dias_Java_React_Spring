@@ -7,9 +7,9 @@ public class Persona {
     Scanner input = new Scanner(System.in);
 
     Persona(){
-        this.nombre = input.next();
-        this.edad = input.nextInt();
-        this.dni = input.nextInt();
+        System.out.println("Ingrese el nombre de la persona: ");this.nombre = input.next();
+        System.out.println("Ingrese la edad de la persona: ");this.edad = input.nextInt();
+        System.out.println("Ingrese el dni de la persona: ");this.dni = input.nextInt();
     }
 
     Persona(String nombre, int edad, int dni){
@@ -19,7 +19,7 @@ public class Persona {
     }
 
     public void mostrarInformacion(){
-        System.out.println(String.format("Nombre: %s\nEdad: %d\nDni: %d",this.nombre,this.edad,this.dni));
+        System.out.println(String.format("---------------------\nNombre: %s\nEdad: %d\nDni: %d\n---------------------",this.nombre,this.edad,this.dni));
     }
 
     public boolean esMayorDeEdad(){
