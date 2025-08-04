@@ -54,4 +54,13 @@ public class Persona {
             System.out.println("Favor de ingresar nombre correcto");
         }
     }
+
+    @Override
+    public String toString() {
+        return "Persona{" +
+                "nombre='" + nombre + '\'' +
+                ", edad=" + edad +
+                ", dni=" + dni +
+                '}';
+    }
 }
