@@ -1,3 +1,4 @@
+package dia1;
 import java.util.Scanner;
 
 public class Dia_1_extra {

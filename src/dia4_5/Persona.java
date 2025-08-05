@@ -1,3 +1,4 @@
+package dia4_5;
 
 public class Persona {
     private String nombre;

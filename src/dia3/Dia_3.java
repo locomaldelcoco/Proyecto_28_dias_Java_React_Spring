@@ -1,3 +1,4 @@
+package dia3;
 public class Dia_3 {
     public static void main(String[] args) {
 
