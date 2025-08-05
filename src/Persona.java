@@ -1,4 +1,3 @@
-import java.util.Scanner;
 
 public class Persona {
     private String nombre;
@@ -12,7 +11,6 @@ public class Persona {
     }
 
     public void mostrarInformacion(){
-        //System.out.printf("---------------------\nNombre: %s\nEdad: %d\nDni: %d\n---------------------%n",this.nombre,this.edad,this.dni);
         System.out.println(toString());
     }
 
@@ -58,7 +56,7 @@ public class Persona {
 
     @Override
     public String toString() {
-        return "Persona{" +
+        return "Persona{ " +
                 "nombre='" + nombre + '\'' +
                 ", edad=" + edad +
                 ", dni=" + dni +
