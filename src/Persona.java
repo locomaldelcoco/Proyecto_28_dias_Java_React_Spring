@@ -12,7 +12,8 @@ public class Persona {
     }
 
     public void mostrarInformacion(){
-        System.out.printf("---------------------\nNombre: %s\nEdad: %d\nDni: %d\n---------------------%n",this.nombre,this.edad,this.dni);
+        //System.out.printf("---------------------\nNombre: %s\nEdad: %d\nDni: %d\n---------------------%n",this.nombre,this.edad,this.dni);
+        System.out.println(toString());
     }
 
     public boolean esMayorDeEdad(){
