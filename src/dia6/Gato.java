@@ -6,4 +6,13 @@ public class Gato extends Animal {
         super(nombre, edad);
     }
 
+    @Override
+    public void hacerSonido() {
+        System.out.println(getClass().getSimpleName() + ": "+ "Miaau");
+    }
+
+    @Override
+    public void mostrarDatos() {
+        super.mostrarDatos();
+    }
 }
