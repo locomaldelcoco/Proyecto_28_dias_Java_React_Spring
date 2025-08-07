@@ -17,12 +17,11 @@ public class Animal {
 
     //Métodos
     public void hacerSonido(){
-        String[] sonidos = {"Pfff","Miau","Muu","Hiii","Beee","Croaac"};
-        int indiceAleatorio = random.nextInt(sonidos.length);
-        System.out.println("¡"+ sonidos[indiceAleatorio]+ "!");
+        System.out.println("¡Pffff!");
     }
 
     public void mostrarDatos(){
+        System.out.println("====== INFORMACIÓN DEL ANIMAL ======");
         System.out.println("Nombre: " + this.nombre + "\nEdad: " + this.edad);
     }
 
