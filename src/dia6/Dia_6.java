@@ -1,6 +1,5 @@
 package dia6;
 
-import java.lang.reflect.Array;
 import java.util.ArrayList;
 
 public class Dia_6 {
