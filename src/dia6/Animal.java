@@ -1,11 +1,9 @@
 package dia6;
-import java.util.Random;
 
 public class Animal {
     //Variables de instancia
     private String nombre;
     private int edad;
-    private Random random = new Random();
     private final int EDAD_MINIMA = 1;
     private final int EDAD_MAXIMA = 30;
 
