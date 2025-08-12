@@ -15,6 +15,6 @@ public class Pajaro implements Volador{
     }
 
     public void mostrarDatos () {
-        System.out.println();
+        System.out.printf("%s: %s\nTipo: %s",getClass().getSimpleName(),this.nombre,this.tipo);
     }
 }
