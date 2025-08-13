@@ -15,6 +15,6 @@ public class Submarino implements Nadador{
     }
 
     public void mostrarDatos (){
-        System.out.printf("%s: %s\nTipo: %s",getClass().getSimpleName(),this.nombre,this.tipo);
+        System.out.printf("%s: %s\nTipo: %s\n",getClass().getSimpleName(),this.nombre,this.tipo);
     }
 }

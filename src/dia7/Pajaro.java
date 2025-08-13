@@ -11,10 +11,10 @@ public class Pajaro implements Volador{
 
     @Override
     public void volar() {
-        System.out.println("Nado como un pájaro");
+        System.out.println("Vuelo como un pájaro");
     }
 
     public void mostrarDatos () {
-        System.out.printf("%s: %s\nTipo: %s",getClass().getSimpleName(),this.nombre,this.tipo);
+        System.out.printf("%s: %s\nTipo: %s\n",getClass().getSimpleName(),this.nombre,this.tipo);
     }
 }
